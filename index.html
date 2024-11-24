@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Skincare By Angel</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+            margin: 0;
+            padding: 0;
+            color: #212529;
+        }
+        header {
+            background: linear-gradient(135deg, #6c63ff, #d41555);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin-top: 5px;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .feature {
+            background: white;
+            border: none;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            width: 300px;
+            text-align: center;
+        }
+        .feature:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+        .feature h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            color: #343a40;
+        }
+        .feature p {
+            font-size: 1.2em;
+            margin: 10px 0;
+            color: #6c757d;
+        }
+        .feature img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 100px;
+            margin-bottom: 15px;
+        }
+        .btn {
+            background: linear-gradient(135deg, #6c63ff, #d41555);
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s;
+            font-size: 1.1em;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+        .btn:hover {
+            background: #4e54c8;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Angel Skincare</h1>
+        <p>Temukan Skincare Yang Anda Butuhkan</p>
+        <p>Menerima Bayaran di Tempat di Kawasan SMA Negeri 2 Siborongborong!</p>
+    </header>
+
+    <section>
+        <!-- Glowing Cream -->
+        <div class="feature">
+            <h2>Glowing Cream</h2>
+            <p id="price-Glowing Cream">Harga: Rp. 50.000</p>
+            <img src="data:image/jpeg;base64,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" alt="Wide lens">
+            <br><br>
+            <label for="porsi-Glowing Cream"></label>
+            <select id="porsi-Glowing Cream" onchange="updatePrice('price-Glowing Cream', 50000)">
+                <option value="1">1 kotak - Rp 50.000</option>
+                <option value="2">2 kotak - Rp 100.000</option>
+                <option value="3">3 kotak - Rp 150.000</option>
+                <option value="4">4 kotak - Rp 200.000</option>
+                <option value="5">5 kotak - Rp 250.000</option>
+            </select>
+            <br><br>
+            <button class="btn" onclick="redirectToDana(50000, '082276282415', 'porsi-Glowing Cream')">🛒 Bayar dengan Dana</button>
+            <button class="btn" onclick="redirectToGopay(50000, '082276282415', 'porsi-Glowing Cream')">🛒 Bayar dengan GoPay</button>
+        </div>
+    </section>
+
+    <script>
+        function updatePrice(displayId, unitPrice) {
+            const porsi = document.getElementById(displayId.replace('price-', 'porsi-')).value;
+            const totalPrice = unitPrice * porsi;
+            document.getElementById(displayId).innerText = `Harga: Rp. ${totalPrice.toLocaleString()}`;
+        }
+
+        function redirectToDana(unitPrice, accountNumber, porsiId) {
+            const porsi = document.getElementById(porsiId).value;
+            const totalPrice = unitPrice * porsi;
+            const danaURL = `https://link.dana.id/qr/checkout?amount=${totalPrice}&receiver=${accountNumber}`;
+            window.location.href = danaURL;
+        }
+
+        function redirectToGopay(unitPrice, accountNumber, porsiId) {
+            const porsi = document.getElementById(porsiId).value;
+            const totalPrice = unitPrice * porsi;
+            const gopayURL = `https://gopay.co.id/qr/checkout?amount=${totalPrice}&receiver=${accountNumber}`;
+            window.location.href = gopayURL;
+        }
+    </script>
+</body>
+</html>
